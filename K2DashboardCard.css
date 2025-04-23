@@ -1,0 +1,65 @@
+<style>
+.cards-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 200px;
+  text-align: left;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.card-content span[name="dl_ActiveCount"],
+.card-content span[name="dl_UrgentCount"],
+.card-content span[name="dl_OverdueCount"] {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-subtitle {
+  font-size: 14px;
+  color: #777;
+}
+
+.card-icon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+}
+
+/* Placeholder icons (you can replace with actual images or SVGs) */
+.active-icon {
+  background: url('https://via.placeholder.com/24?text=A') no-repeat center;
+  background-size: contain;
+}
+
+.urgent-icon {
+  background: url('https://via.placeholder.com/24?text=U') no-repeat center;
+  background-size: contain;
+}
+
+.overdue-icon {
+  background: url('https://via.placeholder.com/24?text=O') no-repeat center;
+  background-size: contain;
+}
+</style>
